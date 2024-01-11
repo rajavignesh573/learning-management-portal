@@ -45,7 +45,14 @@
     - description
     - video : { video_id, video_id }
     - attachment : { attachment_id, attachment_id }
-    - quiz_id
+    - quiz : {quiz_id, quiz_id, quiz_id}
+
+# doubt
+    - lecture_id
+    - student_id
+    - question
+    - AI response : {"", "", ""}
+    - tutor response : {"", "", ""}
 
 # video
     - lecture_id
@@ -61,6 +68,4 @@
     - lecture_id
     - question = ""
     - options : {}
-
-
-
+    - answer : ""
