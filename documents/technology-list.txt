@@ -1,20 +1,19 @@
 packages:
-CORS
-JSONWebtoken
-bcryptJS
+
+CORS - 
+bcryptJS - encrypt decrypt
 body-parser
-dotenv
-express-validator
+dotenv - environment files
+express-validator - for validation
 joi
-lodash
-jsonwebtoken
-mongoose
+lodash - password salting auth
+jsonwebtoken - JWT token auth
+mongoose - handling mongoDB
 multer
 morgan
 nodecron
-nodemailer
-date-fns
-nodemailer
+date-fns - handling dates
+nodemailer - sending mails
 
 tech:
 web-rtc
