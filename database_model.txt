@@ -1,0 +1,76 @@
+# user
+    - username
+    - email
+    - password
+    - role - [Admin, Student, Tutor]
+
+# tutor
+    - name
+    - email 
+    - phone
+    - profile_pic
+    - skills : {"", "", ""}
+    - category_id : {category_id , category_id, category_id}
+
+# student
+    - name
+    - email 
+    - phone
+    - profile_pic
+    - github
+    - category_id : {category_id , category_id, category_id}
+    - notifications : {notification_id, notification_id, notification_id}
+
+# notification
+    - student_id
+    - tutor_id
+    - message
+
+# category
+    - name
+    - tutor : {tutor_id, tutor_id, tutor_id}
+    - student : {student_id, student_id, student_id}
+    - course : {course_id, course_id, course_id}
+
+# course
+
+    - name
+    - title
+    - description
+    - thumbnail
+    - category_id
+    - lecture : {lecture_id, lecture_id, lecture_id}
+
+# lecture
+    - course_id
+    - title
+    - description
+    - video : { video_id, video_id }
+    - attachment : { attachment_id, attachment_id }
+    - quiz : {quiz_id, quiz_id, quiz_id}
+
+# doubt
+    - lecture_id
+    - student_id
+    - question
+    - AI response : {"", "", ""}
+    - tutor response : {"", "", ""}
+
+# video
+    - lecture_id
+    - title
+    - videoURL
+
+# attachement
+    - lecture_id
+    - title
+    - attachemntURL
+
+# quiz
+    - lecture_id
+    - question = ""
+    - options : {}
+    - answer : ""
+
+
+
